@@ -44,6 +44,8 @@ Zaimplementuj podaną na zajęciach klasę reprezentującą ulamek:
    - stałą statyczną czasu kompilacji (constexpr) odzwierciedlajaca domyślna wartość mianownika: `defaultDenominatorValue`
    - metodę constexpr `getDefaultDenominatorValue()` zwracającą powyższe.
    1. Następnie usuń makro `UNIMPLEMENTED_fractionConstStaticFields`
+
+Informacje jak czytać testy znajdują się w materiale [wideo](https://banbye.com/watch/v_zrbYPwwctaYy).
 ____________________________________________________________________________________
 Po implementowaniu powyższych poleceń i zmiany wartości poniższych makr powinno przechodzić
 coraz więcej testów dostępnych w pliku `fractionTests.cpp`.
@@ -56,6 +58,8 @@ w argumentach funkcji przez referencję, proszę też stosować słówko "const"
 odpowiednich miejscach.
 
 Mozna tworzyc dowolna ilosc metod pomocniczych, jednakze aby byly one prywatne.
+
+[Bardziej szczegółowe informacje jak pisać programy w ładnym stylu](https://programowaniec.wordpress.com/2017/11/09/czego-sie-czepiam/) dla zaawansowanych.
 ____________________________________________________________________________________
 ## Ocenianie:
 1. Ocenia [Bobot](https://gitlab.com/agh-courses/bobot), na ten moment w następujący sposób:
