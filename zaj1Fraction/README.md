@@ -84,7 +84,11 @@ ________________________________________________________________________________
 ____________________________________________________________________________________
 # Zadania, które warto zrobić (uwaga: nie będzie za to punktów, tylko coś cenniejszego - umiejętności)
 1. Warto rozbudować naszą klasę-ułamek o podstawowe operacji na ułamkach takich jak mnożenie, dodawanie, skracanie.
+____________________________________________________________________________________
+# Jak skonfigurować sobie pracę nad paczką:
+W formie [wideo](https://banbye.com/watch/v_i79PoGIWrjRC).
 
+**Alternatywnie poniżej jest to spisane w kolejnej sekcji**
 ____________________________________________________________________________________
 ## Grading (section copied from Mateusz Ślażyński, of course he agreed):
 
