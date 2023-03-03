@@ -28,7 +28,7 @@
    i metodę statyczną: `removedFractions()` zwracającą ten atrybut
    Skladowa ta powinna byc incrementowana w destruktorze.
    1. Następnie usuń makro `UNIMPLEMENTED_counterOfDestructedFractions`
-8. Dodaj do klasy metody `zapisz(std::ostream& os)` i `wczytaj(std::istream& is)`,
+8. Dodaj do klasy metody `save(std::ostream& os)` i `load(std::istream& is)`,
    zapisujące/odczytujące zawartość obiektu do przekazanego jako parametr strumienia wyjściowego/wejściowego,
    w formacie `"licznik/mianownik"`. Metoda wczytująca może założyć, że format danych będzie poprawny
    (nie trzeba obslugiwac bledow).
