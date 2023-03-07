@@ -13,6 +13,8 @@ using namespace std;
 //    #pragma message ("Klasa jest do zaimplementowania. Instrukcja w pliku naglowkowym")
 //#endif
 //#endif // UNIMPLEMENTED_classFraction
+int Fraction::removedFractions_ = 0;
+
 Fraction::Fraction() {
     denominator_ = 1;
     numerator_ = 0;
@@ -39,13 +41,13 @@ int Fraction::getDenominator() {
     return denominator_;
 }
 
-void Fraction::print() {
+void Fraction::print() const{
     cout << numerator_ << "/" << denominator_ << "\n";
 }
 
-Fraction::~Fraction() {
-    removedFractions_++;
-}
+    Fraction::~Fraction() {
+        removedFractions_++;
+    }
 
 int Fraction::removedFractions() {
     return removedFractions_;

@@ -77,8 +77,8 @@ public:
     int getNumerator();
     void setDenominator(int val);
     int getDenominator();
-    void print();
-    int removedFractions();
+    void print() const;
+    static int removedFractions();
     void save(std::ostream& os);
     void load(std::istream& is);
 };
