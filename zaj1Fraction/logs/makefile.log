@@ -4,11 +4,24 @@
 [ 42%] Building CXX object tests/lib/googletest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o
 [ 57%] Linking CXX static library ../../../lib/libgtest_main.a
 [ 57%] Built target gtest_main
-[ 71%] Building CXX object tests/CMakeFiles/tests.dir/fractionTests.cpp.o
-[ 85%] Building CXX object tests/CMakeFiles/tests.dir/__/fraction.cpp.o
-/tmp/tmpojoa8a99/student/zaj1Fraction/fraction.cpp:11:6: warning: #warning is a GCC extension
-   11 |     #warning "Klasa jest do zaimplementowania. Instrukcja w pliku naglowkowym"
-      |      ^~~~~~~
-/tmp/tmpojoa8a99/student/zaj1Fraction/fraction.cpp:11:6: warning: #warning "Klasa jest do zaimplementowania. Instrukcja w pliku naglowkowym" [-Wcpp]
-[100%] Linking CXX executable ../bin/tests
-[100%] Built target tests
+[ 71%] Building CXX object tests/CMakeFiles/tests.dir/__/fraction.cpp.o
+[ 85%] Building CXX object tests/CMakeFiles/tests.dir/fractionTests.cpp.o
+/tmp/tmpwl6d9umh/student/zaj1Fraction/tests/fractionTests.cpp: In member function ‘virtual void FractionTester_hasPrintFunction_Test::TestBody()’:
+/tmp/tmpwl6d9umh/student/zaj1Fraction/tests/fractionTests.cpp:123:23: error: passing ‘const Fraction’ as ‘this’ argument discards qualifiers [-fpermissive]
+  123 |         fraction.print();
+      |         ~~~~~~~~~~~~~~^~
+In file included from /tmp/tmpwl6d9umh/student/zaj1Fraction/tests/fractionTests.cpp:6:
+/tmp/tmpwl6d9umh/student/zaj1Fraction/tests/../fraction.h:80:10: note:   in call to ‘void Fraction::print()’
+   80 |     void print();
+      |          ^~~~~
+/tmp/tmpwl6d9umh/student/zaj1Fraction/tests/fractionTests.cpp: In member function ‘virtual void FractionTester_counterOfDestructedFractionsImplemented_Test::TestBody()’:
+/tmp/tmpwl6d9umh/student/zaj1Fraction/tests/fractionTests.cpp:136:66: error: cannot call member function ‘int Fraction::removedFractions()’ without object
+  136 |         const auto removedFractions1 = Fraction::removedFractions();
+      |                                        ~~~~~~~~~~~~~~~~~~~~~~~~~~^~
+/tmp/tmpwl6d9umh/student/zaj1Fraction/tests/fractionTests.cpp:140:66: error: cannot call member function ‘int Fraction::removedFractions()’ without object
+  140 |         const auto removedFractions2 = Fraction::removedFractions();
+      |                                        ~~~~~~~~~~~~~~~~~~~~~~~~~~^~
+make[3]: *** [tests/CMakeFiles/tests.dir/build.make:76: tests/CMakeFiles/tests.dir/fractionTests.cpp.o] Error 1
+make[2]: *** [CMakeFiles/Makefile2:291: tests/CMakeFiles/tests.dir/all] Error 2
+make[1]: *** [CMakeFiles/Makefile2:298: tests/CMakeFiles/tests.dir/rule] Error 2
+make: *** [Makefile:234: tests] Error 2
