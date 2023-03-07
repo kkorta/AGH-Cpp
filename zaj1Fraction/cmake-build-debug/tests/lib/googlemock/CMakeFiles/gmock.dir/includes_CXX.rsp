@@ -1,0 +1,1 @@
+-IC:/Users/Kacper/CLionProjects/lab1-fraction/zaj1Fraction/tests/lib/googlemock/include -IC:/Users/Kacper/CLionProjects/lab1-fraction/zaj1Fraction/tests/lib/googlemock -isystem C:/Users/Kacper/CLionProjects/lab1-fraction/zaj1Fraction/tests/lib/googletest/include -isystem C:/Users/Kacper/CLionProjects/lab1-fraction/zaj1Fraction/tests/lib/googletest 
