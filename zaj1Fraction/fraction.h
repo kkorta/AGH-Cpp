@@ -52,13 +52,8 @@ ________________________________________________________________________________
 @note B. Jaka jest różnica między składowymi: `const static` a `constexpr static`?
 **/
 
-#define UNIMPLEMENTED_classFraction
-#define UNIMPLEMENTED_numeratorAndDenominator
-#define UNIMPLEMENTED_defaultConstructor
-#define UNIMPLEMENTED_constructorWhichInitialiseFields
-#define UNIMPLEMENTED_gettersAndSetters
-#define UNIMPLEMENTED_printFunction
-#define UNIMPLEMENTED_counterOfDestructedFractions
+
+
 #define UNIMPLEMENTED_readWrite
 #define UNIMPLEMENTED_fractionNameSettableFromConstructor
 #define UNIMPLEMENTED_fractionConstStaticFields
@@ -69,3 +64,21 @@ ________________________________________________________________________________
 // .. TODO:
 
 #endif // TASK1_FRACTION_H
+
+class Fraction {
+protected:
+    int numerator_, denominator_;
+    static int removedFractions_;
+public:
+    Fraction();
+    explicit Fraction(int numerator, int denominator = 1);
+    ~Fraction();
+    void setNumerator(int val);
+    int getNumerator();
+    void setDenominator(int val);
+    int getDenominator();
+    void print();
+    int removedFractions();
+    void save(std::ostream& os);
+    void load(std::istream& is);
+};
