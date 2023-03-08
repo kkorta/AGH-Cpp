@@ -1,4 +1,4 @@
-Running main() from /tmp/tmpr1o49k0n/student/zaj1Fraction/tests/lib/googletest/src/gtest_main.cc
+Running main() from /tmp/tmpjwdj6plf/student/zaj1Fraction/tests/lib/googletest/src/gtest_main.cc
 [==========] Running 12 tests from 1 test suite.
 [----------] Global test environment set-up.
 [----------] 12 tests from FractionTester
@@ -17,40 +17,32 @@ Running main() from /tmp/tmpr1o49k0n/student/zaj1Fraction/tests/lib/googletest/s
 [ RUN      ] FractionTester.counterOfDestructedFractionsImplemented
 [       OK ] FractionTester.counterOfDestructedFractionsImplemented (0 ms)
 [ RUN      ] FractionTester.saveImplemented
-/tmp/tmpr1o49k0n/student/zaj1Fraction/tests/fractionTests.cpp:160: Failure
+/tmp/tmpjwdj6plf/student/zaj1Fraction/tests/fractionTests.cpp:160: Failure
 Failed
 No static function implemented
 [  FAILED  ] FractionTester.saveImplemented (0 ms)
 [ RUN      ] FractionTester.loadImplemented
-/tmp/tmpr1o49k0n/student/zaj1Fraction/tests/fractionTests.cpp:179: Failure
+/tmp/tmpjwdj6plf/student/zaj1Fraction/tests/fractionTests.cpp:179: Failure
 Failed
 No static function implemented
 [  FAILED  ] FractionTester.loadImplemented (0 ms)
 [ RUN      ] FractionTester.fractionNameSettableFromConstructor
-/tmp/tmpr1o49k0n/student/zaj1Fraction/tests/fractionTests.cpp:197: Failure
+/tmp/tmpjwdj6plf/student/zaj1Fraction/tests/fractionTests.cpp:197: Failure
 Failed
 Function name not implemented!
 [  FAILED  ] FractionTester.fractionNameSettableFromConstructor (0 ms)
 [ RUN      ] FractionTester.fractionGettersAreConst
-/tmp/tmpr1o49k0n/student/zaj1Fraction/tests/fractionTests.cpp:215: Failure
-Failed
-Function name not implemented!
-[  FAILED  ] FractionTester.fractionGettersAreConst (0 ms)
+[       OK ] FractionTester.fractionGettersAreConst (0 ms)
 [ RUN      ] FractionTester.fractionConstStaticFieldsImplemented
-/tmp/tmpr1o49k0n/student/zaj1Fraction/tests/fractionTests.cpp:228: Failure
-Failed
-No static function implemented
-[  FAILED  ] FractionTester.fractionConstStaticFieldsImplemented (0 ms)
+[       OK ] FractionTester.fractionConstStaticFieldsImplemented (0 ms)
 [----------] 12 tests from FractionTester (0 ms total)
 
 [----------] Global test environment tear-down
-[==========] 12 tests from 1 test suite ran. (1 ms total)
-[  PASSED  ] 7 tests.
-[  FAILED  ] 5 tests, listed below:
+[==========] 12 tests from 1 test suite ran. (0 ms total)
+[  PASSED  ] 9 tests.
+[  FAILED  ] 3 tests, listed below:
 [  FAILED  ] FractionTester.saveImplemented
 [  FAILED  ] FractionTester.loadImplemented
 [  FAILED  ] FractionTester.fractionNameSettableFromConstructor
-[  FAILED  ] FractionTester.fractionGettersAreConst
-[  FAILED  ] FractionTester.fractionConstStaticFieldsImplemented
 
- 5 FAILED TESTS
+ 3 FAILED TESTS

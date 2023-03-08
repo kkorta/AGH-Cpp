@@ -4,7 +4,15 @@
 [ 42%] Building CXX object tests/lib/googletest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o
 [ 57%] Linking CXX static library ../../../lib/libgtest_main.a
 [ 57%] Built target gtest_main
-[ 71%] Building CXX object tests/CMakeFiles/tests.dir/__/fraction.cpp.o
-[ 85%] Building CXX object tests/CMakeFiles/tests.dir/fractionTests.cpp.o
+[ 71%] Building CXX object tests/CMakeFiles/tests.dir/fractionTests.cpp.o
+[ 85%] Building CXX object tests/CMakeFiles/tests.dir/__/fraction.cpp.o
+/tmp/tmpjwdj6plf/student/zaj1Fraction/fraction.cpp: In member function ‘void Fraction::save(std::ostream&)’:
+/tmp/tmpjwdj6plf/student/zaj1Fraction/fraction.cpp:67:30: warning: unused parameter ‘os’ [-Wunused-parameter]
+   67 | void Fraction::save(ostream &os) {
+      |                     ~~~~~~~~~^~
+/tmp/tmpjwdj6plf/student/zaj1Fraction/fraction.cpp: In member function ‘void Fraction::load(std::istream&)’:
+/tmp/tmpjwdj6plf/student/zaj1Fraction/fraction.cpp:71:30: warning: unused parameter ‘is’ [-Wunused-parameter]
+   71 | void Fraction::load(istream &is) {
+      |                     ~~~~~~~~~^~
 [100%] Linking CXX executable ../bin/tests
 [100%] Built target tests

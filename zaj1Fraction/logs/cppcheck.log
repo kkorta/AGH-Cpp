@@ -1,18 +1,30 @@
-/tmp/tmpr1o49k0n/student/zaj1Fraction/fraction.cpp:28:0: warning: The function 'setNumerator' is never used. [unusedFunction]
+/tmp/tmpjwdj6plf/student/zaj1Fraction/fraction.cpp:30:0: warning: The function 'setNumerator' is never used. [unusedFunction]
 void Fraction::setNumerator(int val) {
 ^
-/tmp/tmpr1o49k0n/student/zaj1Fraction/fraction.cpp:32:0: warning: The function 'getNumerator' is never used. [unusedFunction]
-int Fraction::getNumerator() {
+/tmp/tmpjwdj6plf/student/zaj1Fraction/fraction.cpp:34:0: warning: The function 'getNumerator' is never used. [unusedFunction]
+[[nodiscard]] int Fraction::getNumerator() const {
 ^
-/tmp/tmpr1o49k0n/student/zaj1Fraction/fraction.cpp:36:0: warning: The function 'setDenominator' is never used. [unusedFunction]
+/tmp/tmpjwdj6plf/student/zaj1Fraction/fraction.cpp:38:0: warning: The function 'setDenominator' is never used. [unusedFunction]
 void Fraction::setDenominator(int val) {
 ^
-/tmp/tmpr1o49k0n/student/zaj1Fraction/fraction.cpp:40:0: warning: The function 'getDenominator' is never used. [unusedFunction]
-int Fraction::getDenominator() {
+/tmp/tmpjwdj6plf/student/zaj1Fraction/fraction.cpp:42:0: warning: The function 'getDenominator' is never used. [unusedFunction]
+[[nodiscard]] int Fraction::getDenominator() const {
 ^
-/tmp/tmpr1o49k0n/student/zaj1Fraction/fraction.cpp:44:0: warning: The function 'print' is never used. [unusedFunction]
+/tmp/tmpjwdj6plf/student/zaj1Fraction/fraction.cpp:46:0: warning: The function 'print' is never used. [unusedFunction]
 void Fraction::print() const{
 ^
-/tmp/tmpr1o49k0n/student/zaj1Fraction/fraction.cpp:52:0: warning: The function 'removedFractions' is never used. [unusedFunction]
+/tmp/tmpjwdj6plf/student/zaj1Fraction/fraction.cpp:54:0: warning: The function 'removedFractions' is never used. [unusedFunction]
 int Fraction::removedFractions() {
+^
+/tmp/tmpjwdj6plf/student/zaj1Fraction/fraction.cpp:59:0: warning: The function 'getFractionName' is never used. [unusedFunction]
+[[nodiscard]] std::string Fraction::getFractionName() const {
+^
+/tmp/tmpjwdj6plf/student/zaj1Fraction/fraction.cpp:63:0: warning: The function 'getInvalidDenominatorValue' is never used. [unusedFunction]
+int Fraction::getInvalidDenominatorValue() {
+^
+/tmp/tmpjwdj6plf/student/zaj1Fraction/fraction.cpp:67:0: warning: The function 'save' is never used. [unusedFunction]
+void Fraction::save(ostream &os) {
+^
+/tmp/tmpjwdj6plf/student/zaj1Fraction/fraction.cpp:71:0: warning: The function 'load' is never used. [unusedFunction]
+void Fraction::load(istream &is) {
 ^
