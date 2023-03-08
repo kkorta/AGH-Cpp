@@ -1,170 +1,158 @@
 {
   "tests": 12,
-  "failures": 5,
+  "failures": 3,
   "disabled": 0,
   "errors": 0,
-  "timestamp": "2023-03-07T22:14:56Z",
-  "time": "0.001s",
+  "timestamp": "2023-03-08T12:24:12Z",
+  "time": "0s",
   "name": "AllTests",
   "testsuites": [
     {
       "name": "FractionTester",
       "tests": 12,
-      "failures": 5,
+      "failures": 3,
       "disabled": 0,
       "errors": 0,
-      "timestamp": "2023-03-07T22:14:56Z",
+      "timestamp": "2023-03-08T12:24:12Z",
       "time": "0s",
       "testsuite": [
         {
           "name": "classFractionExists",
-          "file": "\/tmp\/tmpr1o49k0n\/student\/zaj1Fraction\/tests\/fractionTests.cpp",
+          "file": "\/tmp\/tmpjwdj6plf\/student\/zaj1Fraction\/tests\/fractionTests.cpp",
           "line": 42,
           "status": "RUN",
           "result": "COMPLETED",
-          "timestamp": "2023-03-07T22:14:56Z",
+          "timestamp": "2023-03-08T12:24:12Z",
           "time": "0s",
           "classname": "FractionTester"
         },
         {
           "name": "hasNumeratorAndDenominator",
-          "file": "\/tmp\/tmpr1o49k0n\/student\/zaj1Fraction\/tests\/fractionTests.cpp",
+          "file": "\/tmp\/tmpjwdj6plf\/student\/zaj1Fraction\/tests\/fractionTests.cpp",
           "line": 51,
           "status": "RUN",
           "result": "COMPLETED",
-          "timestamp": "2023-03-07T22:14:56Z",
+          "timestamp": "2023-03-08T12:24:12Z",
           "time": "0s",
           "classname": "FractionTester"
         },
         {
           "name": "checkIfHasDefaultConstructor",
-          "file": "\/tmp\/tmpr1o49k0n\/student\/zaj1Fraction\/tests\/fractionTests.cpp",
+          "file": "\/tmp\/tmpjwdj6plf\/student\/zaj1Fraction\/tests\/fractionTests.cpp",
           "line": 67,
           "status": "RUN",
           "result": "COMPLETED",
-          "timestamp": "2023-03-07T22:14:56Z",
+          "timestamp": "2023-03-08T12:24:12Z",
           "time": "0s",
           "classname": "FractionTester"
         },
         {
           "name": "hasConstructorWhichInitialiseNumeratorAndDenominator",
-          "file": "\/tmp\/tmpr1o49k0n\/student\/zaj1Fraction\/tests\/fractionTests.cpp",
+          "file": "\/tmp\/tmpjwdj6plf\/student\/zaj1Fraction\/tests\/fractionTests.cpp",
           "line": 76,
           "status": "RUN",
           "result": "COMPLETED",
-          "timestamp": "2023-03-07T22:14:56Z",
+          "timestamp": "2023-03-08T12:24:12Z",
           "time": "0s",
           "classname": "FractionTester"
         },
         {
           "name": "hasGettersAndSetters",
-          "file": "\/tmp\/tmpr1o49k0n\/student\/zaj1Fraction\/tests\/fractionTests.cpp",
+          "file": "\/tmp\/tmpjwdj6plf\/student\/zaj1Fraction\/tests\/fractionTests.cpp",
           "line": 97,
           "status": "RUN",
           "result": "COMPLETED",
-          "timestamp": "2023-03-07T22:14:56Z",
+          "timestamp": "2023-03-08T12:24:12Z",
           "time": "0s",
           "classname": "FractionTester"
         },
         {
           "name": "hasPrintFunction",
-          "file": "\/tmp\/tmpr1o49k0n\/student\/zaj1Fraction\/tests\/fractionTests.cpp",
+          "file": "\/tmp\/tmpjwdj6plf\/student\/zaj1Fraction\/tests\/fractionTests.cpp",
           "line": 116,
           "status": "RUN",
           "result": "COMPLETED",
-          "timestamp": "2023-03-07T22:14:56Z",
+          "timestamp": "2023-03-08T12:24:12Z",
           "time": "0s",
           "classname": "FractionTester"
         },
         {
           "name": "counterOfDestructedFractionsImplemented",
-          "file": "\/tmp\/tmpr1o49k0n\/student\/zaj1Fraction\/tests\/fractionTests.cpp",
+          "file": "\/tmp\/tmpjwdj6plf\/student\/zaj1Fraction\/tests\/fractionTests.cpp",
           "line": 133,
           "status": "RUN",
           "result": "COMPLETED",
-          "timestamp": "2023-03-07T22:14:56Z",
+          "timestamp": "2023-03-08T12:24:12Z",
           "time": "0s",
           "classname": "FractionTester"
         },
         {
           "name": "saveImplemented",
-          "file": "\/tmp\/tmpr1o49k0n\/student\/zaj1Fraction\/tests\/fractionTests.cpp",
+          "file": "\/tmp\/tmpjwdj6plf\/student\/zaj1Fraction\/tests\/fractionTests.cpp",
           "line": 148,
           "status": "RUN",
           "result": "COMPLETED",
-          "timestamp": "2023-03-07T22:14:56Z",
+          "timestamp": "2023-03-08T12:24:12Z",
           "time": "0s",
           "classname": "FractionTester",
           "failures": [
             {
-              "failure": "\/tmp\/tmpr1o49k0n\/student\/zaj1Fraction\/tests\/fractionTests.cpp:160\nFailed\nNo static function implemented",
+              "failure": "\/tmp\/tmpjwdj6plf\/student\/zaj1Fraction\/tests\/fractionTests.cpp:160\nFailed\nNo static function implemented",
               "type": ""
             }
           ]
         },
         {
           "name": "loadImplemented",
-          "file": "\/tmp\/tmpr1o49k0n\/student\/zaj1Fraction\/tests\/fractionTests.cpp",
+          "file": "\/tmp\/tmpjwdj6plf\/student\/zaj1Fraction\/tests\/fractionTests.cpp",
           "line": 164,
           "status": "RUN",
           "result": "COMPLETED",
-          "timestamp": "2023-03-07T22:14:56Z",
+          "timestamp": "2023-03-08T12:24:12Z",
           "time": "0s",
           "classname": "FractionTester",
           "failures": [
             {
-              "failure": "\/tmp\/tmpr1o49k0n\/student\/zaj1Fraction\/tests\/fractionTests.cpp:179\nFailed\nNo static function implemented",
+              "failure": "\/tmp\/tmpjwdj6plf\/student\/zaj1Fraction\/tests\/fractionTests.cpp:179\nFailed\nNo static function implemented",
               "type": ""
             }
           ]
         },
         {
           "name": "fractionNameSettableFromConstructor",
-          "file": "\/tmp\/tmpr1o49k0n\/student\/zaj1Fraction\/tests\/fractionTests.cpp",
+          "file": "\/tmp\/tmpjwdj6plf\/student\/zaj1Fraction\/tests\/fractionTests.cpp",
           "line": 183,
           "status": "RUN",
           "result": "COMPLETED",
-          "timestamp": "2023-03-07T22:14:56Z",
+          "timestamp": "2023-03-08T12:24:12Z",
           "time": "0s",
           "classname": "FractionTester",
           "failures": [
             {
-              "failure": "\/tmp\/tmpr1o49k0n\/student\/zaj1Fraction\/tests\/fractionTests.cpp:197\nFailed\nFunction name not implemented!",
+              "failure": "\/tmp\/tmpjwdj6plf\/student\/zaj1Fraction\/tests\/fractionTests.cpp:197\nFailed\nFunction name not implemented!",
               "type": ""
             }
           ]
         },
         {
           "name": "fractionGettersAreConst",
-          "file": "\/tmp\/tmpr1o49k0n\/student\/zaj1Fraction\/tests\/fractionTests.cpp",
+          "file": "\/tmp\/tmpjwdj6plf\/student\/zaj1Fraction\/tests\/fractionTests.cpp",
           "line": 201,
           "status": "RUN",
           "result": "COMPLETED",
-          "timestamp": "2023-03-07T22:14:56Z",
+          "timestamp": "2023-03-08T12:24:12Z",
           "time": "0s",
-          "classname": "FractionTester",
-          "failures": [
-            {
-              "failure": "\/tmp\/tmpr1o49k0n\/student\/zaj1Fraction\/tests\/fractionTests.cpp:215\nFailed\nFunction name not implemented!",
-              "type": ""
-            }
-          ]
+          "classname": "FractionTester"
         },
         {
           "name": "fractionConstStaticFieldsImplemented",
-          "file": "\/tmp\/tmpr1o49k0n\/student\/zaj1Fraction\/tests\/fractionTests.cpp",
+          "file": "\/tmp\/tmpjwdj6plf\/student\/zaj1Fraction\/tests\/fractionTests.cpp",
           "line": 219,
           "status": "RUN",
           "result": "COMPLETED",
-          "timestamp": "2023-03-07T22:14:56Z",
+          "timestamp": "2023-03-08T12:24:12Z",
           "time": "0s",
-          "classname": "FractionTester",
-          "failures": [
-            {
-              "failure": "\/tmp\/tmpr1o49k0n\/student\/zaj1Fraction\/tests\/fractionTests.cpp:228\nFailed\nNo static function implemented",
-              "type": ""
-            }
-          ]
+          "classname": "FractionTester"
         }
       ]
     }
