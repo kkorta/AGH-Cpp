@@ -44,7 +44,7 @@ void Fraction::setDenominator(int val) {
 }
 
 void Fraction::print() const{
-    cout << numerator_ << "/" << denominator_ << "\n";
+    std::cout << numerator_ << "/" << denominator_ << "\n";
 }
 
     Fraction::~Fraction() {
@@ -64,11 +64,12 @@ int Fraction::getInvalidDenominatorValue() {
     return invalidDenominatorValue;
 }
 
-void Fraction::save(ostream &os) {
-
+void Fraction::save(ostream &os) const{
+    os << numerator_ << "/" << denominator_;
 }
 
 void Fraction::load(istream &is) {
-
+    char slash;
+    is >> numerator_ >> slash >> denominator_;
 }
 

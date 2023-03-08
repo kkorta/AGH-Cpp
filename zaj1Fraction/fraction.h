@@ -54,7 +54,7 @@ ________________________________________________________________________________
 
 
 
-#define UNIMPLEMENTED_readWrite
+
 
 
 /** class PtrCStringVector
@@ -81,7 +81,7 @@ public:
     [[nodiscard]] int getDenominator() const;
     void print()  const;
     static int removedFractions();
-    void save(std::ostream& os);
+    void save(std::ostream& os) const;
     void load(std::istream& is);
     [[nodiscard]] std::string getFractionName() const;
     static int getInvalidDenominatorValue();
