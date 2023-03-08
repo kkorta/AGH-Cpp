@@ -10,19 +10,19 @@
 -- Check for working CXX compiler: /usr/bin/c++ - skipped
 -- Detecting CXX compile features
 -- Detecting CXX compile features - done
-Katalog do zbudowanego projektu: /tmp/tmpjwdj6plf/student/zaj1Fraction/build
- + Znaleziono nagłówki: /tmp/tmpjwdj6plf/student/zaj1Fraction/fraction.h
- + Znaleziono źródła: /tmp/tmpjwdj6plf/student/zaj1Fraction/fraction.cpp;/tmp/tmpjwdj6plf/student/zaj1Fraction/main.cpp
- + Znaleziono źródła bez main.cpp: /tmp/tmpjwdj6plf/student/zaj1Fraction/fraction.cpp
+Katalog do zbudowanego projektu: /tmp/tmp_xvux86g/student/zaj1Fraction/build
+ + Znaleziono nagłówki: /tmp/tmp_xvux86g/student/zaj1Fraction/fraction.h
+ + Znaleziono źródła: /tmp/tmp_xvux86g/student/zaj1Fraction/fraction.cpp;/tmp/tmp_xvux86g/student/zaj1Fraction/main.cpp
+ + Znaleziono źródła bez main.cpp: /tmp/tmp_xvux86g/student/zaj1Fraction/fraction.cpp
 	* valgrind found: /usr/bin/valgrind
--- Found Python: /tmp/tmprclq6tby/teacher/test-venv/bin/python3 (found version "3.11.0") found components: Interpreter 
+-- Found Python: /tmp/tmpkjql1lbf/teacher/test-venv/bin/python3 (found version "3.11.0") found components: Interpreter 
 -- Looking for pthread.h
 -- Looking for pthread.h - found
 -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
 -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
 -- Found Threads: TRUE  
- + Znaleziono pliki testów: /tmp/tmpjwdj6plf/student/zaj1Fraction/tests/fractionTests.cpp
+ + Znaleziono pliki testów: /tmp/tmp_xvux86g/student/zaj1Fraction/tests/fractionTests.cpp
  + katalog nagłówków: 
 -- Configuring done
 -- Generating done
--- Build files have been written to: /tmp/tmpjwdj6plf/student/zaj1Fraction/build
+-- Build files have been written to: /tmp/tmp_xvux86g/student/zaj1Fraction/build
