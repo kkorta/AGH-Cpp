@@ -73,3 +73,5 @@ void Fraction::load(istream &is) {
     is >> numerator_ >> slash >> denominator_;
 }
 
+
+
