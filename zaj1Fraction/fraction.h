@@ -55,7 +55,7 @@ ________________________________________________________________________________
 
 
 #define UNIMPLEMENTED_readWrite
-#define UNIMPLEMENTED_fractionNameSettableFromConstructor
+
 
 /** class PtrCStringVector
  *  @brief Klasa Fraction, którą należy poniżej zaimplementować zgodnie z instrukcją **/
