@@ -20,16 +20,18 @@ Fraction::Fraction() {
     numerator_ = 0;
 }
 
-Fraction::Fraction(int numerator, int denominator) {
+Fraction::Fraction(int numerator, int denominator, std::string name) : fractionName_(std::move(name)){
     numerator_ = numerator;
     denominator_ = denominator;
 }
+
+
 
 void Fraction::setNumerator(int val) {
     numerator_ = val;
 }
 
-int Fraction::getNumerator() {
+[[nodiscard]] int Fraction::getNumerator() const {
     return numerator_;
 }
 
@@ -37,7 +39,7 @@ void Fraction::setDenominator(int val) {
     denominator_ = val;
 }
 
-int Fraction::getDenominator() {
+[[nodiscard]] int Fraction::getDenominator() const {
     return denominator_;
 }
 
@@ -53,3 +55,20 @@ int Fraction::removedFractions() {
     return removedFractions_;
 
 }
+
+[[nodiscard]] std::string Fraction::getFractionName() const {
+    return fractionName_;
+}
+
+int Fraction::getInvalidDenominatorValue() {
+    return invalidDenominatorValue;
+}
+
+void Fraction::save(ostream &os) {
+
+}
+
+void Fraction::load(istream &is) {
+
+}
+

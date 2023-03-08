@@ -56,7 +56,6 @@ ________________________________________________________________________________
 
 #define UNIMPLEMENTED_readWrite
 #define UNIMPLEMENTED_fractionNameSettableFromConstructor
-#define UNIMPLEMENTED_fractionConstStaticFields
 
 /** class PtrCStringVector
  *  @brief Klasa Fraction, którą należy poniżej zaimplementować zgodnie z instrukcją **/
@@ -69,16 +68,24 @@ class Fraction {
 protected:
     int numerator_, denominator_;
     static int removedFractions_;
+    const std::string fractionName_;
+    const static int invalidDenominatorValue = 0;
+    constexpr static int defaultDenominatorValue = 1;
 public:
     Fraction();
-    explicit Fraction(int numerator, int denominator = 1);
+    explicit Fraction(int numerator, int denominator = 1, std::string name = "fraction");
     ~Fraction();
     void setNumerator(int val);
-    int getNumerator();
+    [[nodiscard]] int getNumerator() const;
     void setDenominator(int val);
-    int getDenominator();
-    void print() const;
+    [[nodiscard]] int getDenominator() const;
+    void print()  const;
     static int removedFractions();
     void save(std::ostream& os);
     void load(std::istream& is);
+    [[nodiscard]] std::string getFractionName() const;
+    static int getInvalidDenominatorValue();
+    constexpr static int getDefaultDenominatorValue(){
+        return defaultDenominatorValue;
+    }
 };
