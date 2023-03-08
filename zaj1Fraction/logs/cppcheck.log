@@ -1,0 +1,18 @@
+/tmp/tmpr1o49k0n/student/zaj1Fraction/fraction.cpp:28:0: warning: The function 'setNumerator' is never used. [unusedFunction]
+void Fraction::setNumerator(int val) {
+^
+/tmp/tmpr1o49k0n/student/zaj1Fraction/fraction.cpp:32:0: warning: The function 'getNumerator' is never used. [unusedFunction]
+int Fraction::getNumerator() {
+^
+/tmp/tmpr1o49k0n/student/zaj1Fraction/fraction.cpp:36:0: warning: The function 'setDenominator' is never used. [unusedFunction]
+void Fraction::setDenominator(int val) {
+^
+/tmp/tmpr1o49k0n/student/zaj1Fraction/fraction.cpp:40:0: warning: The function 'getDenominator' is never used. [unusedFunction]
+int Fraction::getDenominator() {
+^
+/tmp/tmpr1o49k0n/student/zaj1Fraction/fraction.cpp:44:0: warning: The function 'print' is never used. [unusedFunction]
+void Fraction::print() const{
+^
+/tmp/tmpr1o49k0n/student/zaj1Fraction/fraction.cpp:52:0: warning: The function 'removedFractions' is never used. [unusedFunction]
+int Fraction::removedFractions() {
+^
